@@ -1,6 +1,10 @@
 import 'terminal_utils.dart';
 
 void main() {
+  tamanhoVetor();
+}
+
+void tamanhoVetor() {
   int? tamanho = int.tryParse(syncPrompt('Digite o tamanho do vetor:'))!;
 
   List<int> vetor = [];
