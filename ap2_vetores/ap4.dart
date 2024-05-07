@@ -9,7 +9,7 @@ void main() {
     print('Escolha um programa:');
     print('1. Vetores Aleatorios:');
     print('2. Tamanho Vetor:');
-    print('3. :');
+    print('3. Somando Vetores:');
     print('0. Sair');
 
     String? input = stdin.readLineSync();
@@ -22,7 +22,7 @@ void main() {
         tamanhoVetor();
         break;
       case '3':
-       
+        somandoVetores();
         break;
       case '0':
         exit(0);
